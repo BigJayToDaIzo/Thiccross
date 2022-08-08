@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/rounded-black-square-shape-512x512.png-5f042348986c762e0b4e2689139e4e2d.stex"
+path="res://.import/black_square.png-78411b9a9c18b0cb19744f3eca548d24.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Thiccross/Board/Cell/assets/rounded-black-square-shape-512x512.png"
-dest_files=[ "res://.import/rounded-black-square-shape-512x512.png-5f042348986c762e0b4e2689139e4e2d.stex" ]
+source_file="res://Thiccross/Board/Cell/assets/black_square.png"
+dest_files=[ "res://.import/black_square.png-78411b9a9c18b0cb19744f3eca548d24.stex" ]
 
 [params]
 

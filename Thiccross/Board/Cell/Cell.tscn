@@ -1,14 +1,11 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=2 format=2]
 
 [ext_resource path="res://Thiccross/Board/Cell/Cell.gd" type="Script" id=1]
-[ext_resource path="res://Thiccross/Board/Cell/assets/cross.png" type="Texture" id=2]
 
 [node name="Cell" type="TextureButton"]
-margin_right = 512.0
-margin_bottom = 512.0
-rect_min_size = Vector2( 64, 64 )
-shortcut_in_tooltip = false
+margin_right = 40.0
+margin_bottom = 40.0
 button_mask = 3
-texture_normal = ExtResource( 2 )
-stretch_mode = 2
 script = ExtResource( 1 )
+
+[connection signal="gui_input" from="." to="." method="_on_Cell_gui_input"]

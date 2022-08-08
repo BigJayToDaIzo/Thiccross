@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cross.png-504ef9756e3259face09e961d2d61e30.stex"
+path="res://.import/white_square.png-845c1ade2ceeb2cb1377738439dccf5a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Thiccross/Board/Cell/assets/cross.png"
-dest_files=[ "res://.import/cross.png-504ef9756e3259face09e961d2d61e30.stex" ]
+source_file="res://Thiccross/Board/Cell/assets/white_square.png"
+dest_files=[ "res://.import/white_square.png-845c1ade2ceeb2cb1377738439dccf5a.stex" ]
 
 [params]
 

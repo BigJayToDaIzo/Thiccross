@@ -3,23 +3,16 @@ extends TextureButton
 var _is_dirty := false
 var _is_on := false
 var _is_excluded := false
+var white_square_texture_path := "res://Thiccross/Board/Cell/assets/white_square.png"
+var black_square_texture_path := "res://Thiccross/Board/Cell/assets/black_square.png"
+var excluded_square_texture_path := "res://Thiccross/Board/Cell/assets/excluded.png"
 
-onready var white_square_texture := ImageTexture.new()
-onready var black_square_texture := ImageTexture.new()
-onready var excluded_square_texture := ImageTexture.new()
-onready var white_square_image := Image.new()
-onready var black_square_image := Image.new()
-onready var excluded_square_image := Image.new()
-
+onready var white_square_texture: StreamTexture = load(white_square_texture_path)
+onready var black_square_texture: StreamTexture = load(black_square_texture_path)
+onready var excluded_square_texture: StreamTexture = load(excluded_square_texture_path)
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	white_square_image.load("res://Thiccross/Board/Cell/assets/white_square.png")
-	white_square_texture.create_from_image(white_square_image)
-	black_square_image.load("res://Thiccross/Board/Cell/assets/black_square.png")
-	black_square_texture.create_from_image(black_square_image)
-	excluded_square_image.load("res://Thiccross/Board/Cell/assets/excluded.png")
-	excluded_square_texture.create_from_image(excluded_square_image)
 	
 	texture_normal = white_square_texture
 	

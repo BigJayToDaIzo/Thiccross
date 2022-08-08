@@ -33,7 +33,13 @@ _global_script_class_icons={
 [application]
 
 config/name="Thiccross"
+run/main_scene="res://Thiccross/Board/Cell/CellToy.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=256
+window/size/height=256
 
 [editor_plugins]
 

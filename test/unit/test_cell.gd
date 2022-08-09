@@ -7,7 +7,6 @@ var Event := InputEventMouseButton.new()
 var _event = null
 
 # Called when the node enters the scene tree for the first time.
-
 func before_each():
 	_cell = Cell.instance()
 	_event = Event

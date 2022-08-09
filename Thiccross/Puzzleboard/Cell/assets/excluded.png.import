@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/excluded.png-40e11b935ddb1d49c478cc0650b9f4d6.stex"
+path="res://.import/excluded.png-63f3b65b3aa5542f7cd45a4f94f6e60e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Thiccross/Board/Cell/assets/excluded.png"
-dest_files=[ "res://.import/excluded.png-40e11b935ddb1d49c478cc0650b9f4d6.stex" ]
+source_file="res://Thiccross/Puzzleboard/Cell/assets/excluded.png"
+dest_files=[ "res://.import/excluded.png-63f3b65b3aa5542f7cd45a4f94f6e60e.stex" ]
 
 [params]
 

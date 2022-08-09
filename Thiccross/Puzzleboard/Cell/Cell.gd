@@ -3,9 +3,9 @@ extends TextureButton
 var _is_dirty := false
 var _is_on := false
 var _is_excluded := false
-var white_square_texture_path := "res://Thiccross/Board/Cell/assets/white_square.png"
-var black_square_texture_path := "res://Thiccross/Board/Cell/assets/black_square.png"
-var excluded_square_texture_path := "res://Thiccross/Board/Cell/assets/excluded.png"
+var white_square_texture_path := "res://Thiccross/Puzzleboard/Cell/assets/white_square.png"
+var black_square_texture_path := "res://Thiccross/Puzzleboard/Cell/assets/black_square.png"
+var excluded_square_texture_path := "res://Thiccross/Puzzleboard/Cell/assets/excluded.png"
 
 onready var white_square_texture: StreamTexture = load(white_square_texture_path)
 onready var black_square_texture: StreamTexture = load(black_square_texture_path)
@@ -13,7 +13,6 @@ onready var excluded_square_texture: StreamTexture = load(excluded_square_textur
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	
 	texture_normal = white_square_texture
 	
 func get_is_dirty() -> bool:

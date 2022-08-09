@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://Thiccross/Board/Cell/Cell.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Thiccross/Board/Cell/CellToy.gd" type="Script" id=2]
+[ext_resource path="res://Thiccross/Puzzleboard/Cell/Cell.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Thiccross/Puzzleboard/Cell/CellToy.gd" type="Script" id=2]
 
 [node name="CellToy" type="Control"]
 anchor_right = 1.0
@@ -23,21 +23,21 @@ anchor_bottom = 1.0
 margin_top = -50.0
 
 [node name="is_dirty" type="Label" parent="VBoxContainer"]
-margin_right = 256.0
+margin_right = 1024.0
 margin_bottom = 14.0
 align = 1
 valign = 1
 
 [node name="is_on" type="Label" parent="VBoxContainer"]
 margin_top = 18.0
-margin_right = 256.0
+margin_right = 1024.0
 margin_bottom = 32.0
 align = 1
 valign = 1
 
 [node name="is_excluded" type="Label" parent="VBoxContainer"]
 margin_top = 36.0
-margin_right = 256.0
+margin_right = 1024.0
 margin_bottom = 50.0
 align = 1
 valign = 1

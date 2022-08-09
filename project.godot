@@ -9,11 +9,6 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "",
-"class": "GitAPI",
-"language": "NativeScript",
-"path": "res://addons/godot-git-plugin/git_api.gdns"
-}, {
 "base": "Reference",
 "class": "GutHookScript",
 "language": "GDScript",
@@ -25,7 +20,6 @@ _global_script_classes=[ {
 "path": "res://addons/gut/test.gd"
 } ]
 _global_script_class_icons={
-"GitAPI": "",
 "GutHookScript": "",
 "GutTest": ""
 }
@@ -33,13 +27,8 @@ _global_script_class_icons={
 [application]
 
 config/name="Thiccross"
-run/main_scene="res://Thiccross/Board/Cell/CellToy.tscn"
+run/main_scene="res://Thiccross/Puzzleboard/Cell/CellToy.tscn"
 config/icon="res://icon.png"
-
-[display]
-
-window/size/width=256
-window/size/height=256
 
 [editor_plugins]
 
@@ -47,7 +36,11 @@ enabled=PoolStringArray( "res://addons/gut/plugin.cfg" )
 
 [gdnative]
 
-singletons=[ "res://addons/godot-git-plugin/git_api.gdnlib" ]
+singletons=[  ]
+
+[global]
+
+display=false
 
 [physics]
 

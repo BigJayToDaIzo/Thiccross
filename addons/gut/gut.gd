@@ -164,7 +164,7 @@ func _init():
 	_doubler.set_spy(_spy)
 	_doubler.set_gut(self)
 
-	# TODO remove these, universal logger should fix this.
+	# TO DO remove these, universal logger should fix this.
 	_doubler.set_logger(_lgr)
 	_spy.set_logger(_lgr)
 	_stubber.set_logger(_lgr)

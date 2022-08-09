@@ -48,11 +48,9 @@ func test_is_excluded_toggles_sets_dirty():
 	_cell.toggle_is_excluded()
 	assert_true(_cell.get_is_dirty())
 	
-	# TODO: try to figure out how to ensure it's loading correct resource
 func test_texture_normal_default_set():
 	assert_string_contains(_cell.texture_normal.load_path, "res://.import/white_square.png-")
 	
-	# TODO: must figure out above todo to test these things
 func test_texture_changes_to_black_square_if_white_and_left_clicked():
 	_event.set_button_index(1)
 	_event.set_pressed(true)

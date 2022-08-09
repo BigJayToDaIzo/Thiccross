@@ -20,7 +20,7 @@ func _export_tests(summary_script):
 
 	return to_return
 
-# TODO
+# TO DO
 #	errors
 func _export_scripts(summary):
 	if(summary == null):
@@ -58,7 +58,7 @@ func _make_results_dict():
 	return result
 
 
-# TODO
+# TO DO
 #	time
 #	errors
 func get_results_dictionary(gut, include_scripts=true):

@@ -15,3 +15,8 @@ func after_each():
 func test_can_create_puzzleboard():
 	assert_not_null(_puzzleboard)
 	
+func test_exports_board_width():
+	assert_exports(_puzzleboard, "board_width", TYPE_INT)
+
+func test_exports_board_height():
+	assert_exports(_puzzleboard, "board_height", TYPE_INT)
